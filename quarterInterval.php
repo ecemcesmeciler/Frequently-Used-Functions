@@ -20,7 +20,7 @@ function hangiCeyrekteyiz()
             $date2 = date('Y').'-12-31';
             break;
         default:
-            return "Invalid date";
+            return "Geçersiz tarih";
     }  
     return array($date1, $date2);
 }
