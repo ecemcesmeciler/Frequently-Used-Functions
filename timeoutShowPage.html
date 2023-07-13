@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 1000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+function refreshPage() {
+    location.reload();
+}
+
+setInterval(refreshPage, 1800000); // 30 dakika = 30 * 60 * 1000 milisaniye = 1800000 milisaniye
+
+</script>
+
+</body>
+</html> 
