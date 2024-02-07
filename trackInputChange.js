@@ -1,11 +1,11 @@
 
 $(document).ready(function () {
-    console.log('initial value: ' + $('#InputProductType').val());
+    console.log('initial value: ' + $('#Input').val());
 
-    $('#InputProductType').on('change', function () {
+    $('#Input').on('change', function () {
         console.log('Input value changed: ' + $(this).val());
         console.log('Current value: ' + $(this).val());
     });
 
-    console.log('current value: ' + $('#InputProductType').val());
+    console.log('current value: ' + $('#Input').val());
 });
