@@ -1,0 +1,2 @@
+Bad Practice to Store Calculated Data in Database?
+https://dba.stackexchange.com/questions/202758/bad-practice-to-store-calculated-data-in-database
